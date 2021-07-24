@@ -249,7 +249,7 @@ svg.intro {
   width: 100%;
   height: 584px;
   position: absolute;
-  top: 385vh;
+  top: 398vh;
 }
 #contactimg{
   margin: 8%;
@@ -267,7 +267,7 @@ svg.intro {
 }
 footer{
     position: absolute;
-    top: 450vh;
+    top: 475vh;
     align-items: center;
     justify-content: center;
     background-color: black;
@@ -369,6 +369,15 @@ footer{
   #contactbox{
     width: 40%;
     margin-top: 7%;
+  }
+}
+@media screen and (max-width: 832px) {
+  
+  #last-section{
+    top: 527vh;
+  }
+  footer{
+    top: 595vh;
   }
 }
 @media screen and (max-width: 700px) {
